@@ -1,0 +1,60 @@
+# =========================
+# Quartus Generated Files
+# =========================
+db/
+incremental_db/
+simulation/
+output_files/
+
+*.qws
+*.qdf
+*.sopcinfo
+*.summary
+*.rpt
+*.pin
+*.jdi
+*.sof
+*.pof
+*.map
+*.smsg
+*.cmp
+*.eqn
+*.qip
+*.qsf.bak
+*.done
+*.bak
+
+# =========================
+# ModelSim / Questa
+# =========================
+transcript
+vsim.wlf
+*.wlf
+work/
+modelsim.ini
+
+# =========================
+# Waveforms / Dumps
+# =========================
+*.vcd
+*.vwf
+
+# =========================
+# Python
+# =========================
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# =========================
+# OS Junk
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Editors
+# =========================
+.vscode/
+.idea/
