@@ -68,4 +68,17 @@ set_global_assignment -name VERILOG_FILE market_data_top_tb.v
 set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
 set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_location_assignment PIN_B11 -to LEDR[9]
+set_location_assignment PIN_A11 -to LEDR[8]
+set_location_assignment PIN_E14 -to LEDR[6]
+set_location_assignment PIN_D14 -to LEDR[7]
+set_location_assignment PIN_C13 -to LEDR[5]
+set_location_assignment PIN_D13 -to LEDR[4]
+set_location_assignment PIN_B10 -to LEDR[3]
+set_location_assignment PIN_A10 -to LEDR[2]
+set_location_assignment PIN_A9 -to LEDR[1]
+set_location_assignment PIN_A8 -to LEDR[0]
+set_location_assignment PIN_AB5 -to rx_serial
+set_instance_assignment -name IO_STANDARD "3.0-V LVTTL" -to rx_serial
+set_location_assignment PIN_P11 -to CLOCK_50
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
